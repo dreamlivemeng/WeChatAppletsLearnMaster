@@ -1,0 +1,38 @@
+/* pages/allcategory/allcategory.wxss */
+
+.item-bg-style {
+  margin: 20px;
+  background: white;
+  /* border: 0px gray solid; */
+  box-shadow: 0px 0px 2px 2px #f3f3f3;
+  display: flex;
+  border-radius: 10px;
+}
+
+.itemcontent-style {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+}
+
+.content-style {
+  margin: 10px;
+}
+
+.time-style {
+  margin-left: 20px;
+}
+
+.img-style {
+  width: 120px;
+}
+
+.welfare-box-style {
+  display: flex;
+  justify-content: center;
+}
+
+.welfare-style {
+  align-items: center;
+  margin: 20px;
+}

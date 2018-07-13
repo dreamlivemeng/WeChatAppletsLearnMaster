@@ -1,0 +1,5 @@
+/* pages/webdetails/webdetails.wxss */
+
+.link-style {
+  color: red;
+}

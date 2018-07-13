@@ -1,0 +1,64 @@
+<!--pages/media/media.wxml-->
+<view class='page'>
+  <view class='page__hd'>
+    <text>{{desc}}</text>
+  </view>
+  <view class='page__hd'>
+    <view class='weui-cells'>
+      <view class='weui-cell' bindtap='chooseImage_method'>
+        <view class='weui-cell__bd'>图片（chooseImage）</view>
+      </view>
+      <view class='weui-cell' bindtap='previewImage_method'>
+        <view class='weui-cell__bd'>图片（previewImage）</view>
+      </view>
+      <view class='weui-cell' bindtap='getImageInfo_method'>
+        <view class='weui-cell__bd'>图片（getImageInfo）</view>
+      </view>
+      <view class='weui-cell' bindtap='saveImageToPhotosAlbum_method'>
+        <view class='weui-cell__bd'>图片（saveImageToPhotosAlbum）</view>
+      </view>
+      <view class='weui-cell' bindtap='startRecord_method'>
+        <view class='weui-cell__bd'>录音</view>
+      </view>
+      <view class='weui-cell' bindtap='startRecord_method'>
+        <view class='weui-cell__bd'>录音管理（todo）</view>
+      </view>
+      <view class='weui-cell' bindtap='startRecord_method'>
+        <view class='weui-cell__bd'>录音</view>
+      </view>
+      <!-- <view class='weui-cell' bindtap='startRecord_method'>
+        <view class='weui-cell__bd'>录音播放控制 开始播放</view>
+      </view>
+      <view class='weui-cell' bindtap='startRecord_method'>
+        <view class='weui-cell__bd'>录音播放控制 暂停播放</view>
+      </view>
+      <view class='weui-cell' bindtap='startRecord_method'>
+        <view class='weui-cell__bd'>录音播放控制 结束播放</view>
+      </view> -->
+      <view class='weui-cell' bindtap='backgroundAudio_method'>
+        <view class='weui-cell__bd'>背景音频播放管理</view>
+      </view>
+
+      <view class='weui-cell' bindtap='audioControl_method'>
+        <view class='weui-cell__bd'>音频组件控制</view>
+      </view>
+      <video src="{{src}}" muted='true'></video>
+      <view class='weui-cell' bindtap='chooseVideo_method'>
+        <view class='weui-cell__bd'>选取（拍摄）视频并保存视频（chooseVideo）</view>
+      </view>
+      <view class='weui-cell' bindtap='videocomponentcontrol_method'>
+        <view class='weui-cell__bd'>视频组件控制</view>
+      </view>
+      <view class='weui-cell' bindtap='cameraControl_method'>
+        <view class='weui-cell__bd'>相机组件控制</view>
+      </view>
+      <view class='weui-cell' bindtap='realTimeAudioAndVideo_method'>
+        <view class='weui-cell__bd'>实时音视频</view>
+      </view>
+      <view class='weui-cell' bindtap='loadFontFace_method'>
+        <view class='weui-cell__bd'>动态加载字体</view>
+      </view>
+
+    </view>
+  </view>
+</view>

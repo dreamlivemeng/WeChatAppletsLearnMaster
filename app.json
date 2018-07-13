@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/welfare/welfare",
+    "pages/allcategory/allcategory",
+    "pages/webdetails/webdetails",
+    "pages/mine/mine",
+    "pages/devices/devices",
+    "pages/location/location",
+    "pages/storage/storage",
+    "pages/files/files",
+    "pages/media/media",
+    "pages/media/liveplayer/liveplayer",
+    "pages/media/cameracontrol/cameracontrol",
+    "pages/media/videocomponentcontrol/videocomponentcontrol",
+    "pages/media/audioControl/audioControl",
+    "pages/ui/ui",
+    "pages/ui/interfacefeedback/interfacefeedback",
+    "pages/ui/navigationbar/navigationbar",
+    "pages/ui/tabbar/tabbar",
+    "pages/ui/navigation/navigation",
+    "pages/ui/canvas/canvas",
+    "pages/component/component"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "android",
+        "borderStyle": "black"
+      },
+      {
+        "pagePath": "pages/welfare/welfare",
+        "text": "福利",
+        "borderStyle": "black"
+      },
+      {
+        "pagePath": "pages/allcategory/allcategory",
+        "text": "所有资讯",
+        "borderStyle": "black"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "borderStyle": "black"
+      }
+    ],
+    "position": "bottom"
+  },
+  "debug": true,
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

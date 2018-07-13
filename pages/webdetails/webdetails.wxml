@@ -1,0 +1,17 @@
+<!--pages/webdetails/webdetails.wxml-->
+ <view>
+  <text bindlongpress='copyToClipboardData' class='link-style'>{{webUrl}}长按可复制链接</text> 
+ </view>
+ <text>玩转此小程序，在列表长按单个栏目可以复制链接和保存图片到本地。</text>
+   <view wx:if='{{webUrl.indexOf("github") != -1}}'>
+    <web-view src="{{webUrl}}"></web-view> 
+ </view>  
+ <!-- <view wx:if="{{desc.length>0&&desc== 'aa' }}">
+ <text>aa</text>
+ </view>
+ <view wx:if='{{desc.length>0&&desc== "aa" }}'>
+ <text>ab</text>
+ </view>
+ <view wx:if='{{desc.length<0&&desc== "aa" }}'>
+ <text>ac</text>
+ </view> -->

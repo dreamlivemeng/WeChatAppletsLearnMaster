@@ -1,0 +1,11 @@
+/* pages/welfare/welfare.wxss */
+
+.welfare-box-style {
+  display: flex;
+  justify-content: center;
+}
+
+.welfare-style {
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}

@@ -1,0 +1,103 @@
+<!--pages/ui/canvas/canvas.wxml-->
+
+<canvas canvas-id="myCanvas" style="margin: 5px; border:1px solid #d3d3d3;" bindtouchstart="start" bindtouchmove="move" bindtouchend="end" />
+
+<view hidden="{{hidden}}">
+  Coordinates: ({{x}}, {{y}})
+</view>
+
+<view class='page'>
+  <view class='page__hd'>
+  </view>
+  <view class='page__hd'>
+    <view class='weui-cells'>
+      <view class='weui-cell' bindtap='createLinearGradient_method'>
+        <view class='weui-cell__bd'>createLinearGradient</view>
+      </view>
+      <view class='weui-cell' bindtap='setFillStyle_method'>
+        <view class='weui-cell__bd'>setFillStyle(fillRect)</view>
+      </view>
+      <view class='weui-cell' bindtap='setStrokeStyle_method'>
+        <view class='weui-cell__bd'>setStrokeStyle(strokeRect)</view>
+      </view>
+      <view class='weui-cell' bindtap='setShadow_method'>
+        <view class='weui-cell__bd'>setShadow</view>
+      </view>
+      <view class='weui-cell' bindtap='createCanvasContext_method'>
+        <view class='weui-cell__bd'>createCanvasContext</view>
+      </view>
+      <view class='weui-cell' bindtap='addColorStop_method'>
+        <view class='weui-cell__bd'>addColorStop</view>
+      </view>
+      <view class='weui-cell' bindtap='setLineWidth_method'>
+        <view class='weui-cell__bd'>设置线条的宽度setLineWidth</view>
+      </view>
+      <view class='weui-cell' bindtap='setLineCap_method'>
+        <view class='weui-cell__bd'>设置线条的端点样式setLineCap</view>
+      </view>
+      <view class='weui-cell' bindtap='setLineJoin_method'>
+        <view class='weui-cell__bd'>设置线条的交点样式setLineJoin</view>
+      </view>
+      <view class='weui-cell' bindtap='setLineDash_method'>
+        <view class='weui-cell__bd'>设置线条的宽度setLineDash</view>
+      </view>
+      <view class='weui-cell' bindtap='setMiterLimit_method'>
+        <view class='weui-cell__bd'>setMiterLimit</view>
+      </view>
+      <view class='weui-cell' bindtap='arc_method'>
+        <view class='weui-cell__bd'>画一条弧线arc</view>
+      </view>
+      <view class='weui-cell' bindtap='bezierCurveTo_method'>
+        <view class='weui-cell__bd'>三次方贝塞尔曲线路径bezierCurveTo(todo)</view>
+      </view>
+      <view class='weui-cell' bindtap='quadraticCurveTo_method'>
+        <view class='weui-cell__bd'>二次贝塞尔曲线路径quadraticCurveTo(todo)</view>
+      </view>
+      <view class='weui-cell' bindtap='scale_method'>
+        <view class='weui-cell__bd'>scale</view>
+      </view>
+      <view class='weui-cell' bindtap='rotate_method'>
+        <view class='weui-cell__bd'>rotate</view>
+      </view>
+      <view class='weui-cell' bindtap='translate_method'>
+        <view class='weui-cell__bd'>translate</view>
+      </view>
+      <view class='weui-cell' bindtap='clip_method'>
+        <view class='weui-cell__bd'>clip</view>
+      </view>
+      <view class='weui-cell' bindtap='setTextAlign_method'>
+        <view class='weui-cell__bd'>setTextAlign</view>
+      </view>
+      <view class='weui-cell' bindtap='setTextBaseline_method'>
+        <view class='weui-cell__bd'>setTextBaseline</view>
+      </view>
+      <view class='weui-cell' bindtap='drawImage_method'>
+        <view class='weui-cell__bd'>drawImage</view>
+      </view>
+      <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+            <view class='weui-cell' bindtap='measureText_method'>
+        <view class='weui-cell__bd'>measureText</view>
+      </view>
+            <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+            <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+            <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+            <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+            <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+            <view class='weui-cell' bindtap='setGlobalAlpha_method'>
+        <view class='weui-cell__bd'>setGlobalAlpha</view>
+      </view>
+    </view>
+  </view>
+</view>

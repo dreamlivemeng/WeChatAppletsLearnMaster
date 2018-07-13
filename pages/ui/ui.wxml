@@ -1,0 +1,54 @@
+<!--pages/ui/ui.wxml-->
+
+<view class='page'>
+  <view class='page__hd'>
+</view>
+<view class='page__hd'>
+  <view class='weui-cells'>
+    <view class='weui-cell' bindtap='interactive_feedback_method'>
+      <view class='weui-cell__bd'>界面反馈</view>
+    </view>
+    <view class='weui-cell' bindtap='navigationBar_method'>
+      <view class='weui-cell__bd'>设置导航条</view>
+    </view>
+    <view class='weui-cell' bindtap='settabbar_method'>
+      <view class='weui-cell__bd'>设置tabBar</view>
+    </view>
+    <view class='weui-cell' bindtap='setbackgroundColor_method'>
+      <view class='weui-cell__bd'>设置窗口背景颜色</view>
+    </view>
+     <view class='weui-cell' bindtap='setBackgroundTextStyle_method'>
+      <view class='weui-cell__bd'>设置窗口背景样式</view>
+    </view>
+    <view class='weui-cell' bindtap='devices_method'>
+      <view class='weui-cell__bd'>设置置顶信息</view>
+    </view>
+    <view class='weui-cell' bindtap='navigation_method'>
+      <view class='weui-cell__bd'>导航</view>
+    </view>
+<view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+    <view class='weui-cell' bindtap='animation_method'>
+      <view class='weui-cell__bd'>动画</view>
+    </view>
+    <view class='weui-cell' bindtap='pageScrollTo_method'>
+      <view class='weui-cell__bd'>位置</view>
+    </view>
+    <view class='weui-cell' bindtap='canvas_method'>
+      <view class='weui-cell__bd'>绘图</view>
+    </view>
+    <view class='weui-cell' bindtap='ui_method'>
+      <view class='weui-cell__bd'>下拉刷新</view>
+    </view>
+    <view class='weui-cell' bindtap='ui_method'>
+      <view class='weui-cell__bd'>导航</view>
+    </view>
+    <view class='weui-cell' bindtap='ui_method'>
+      <view class='weui-cell__bd'>WXML节点信息</view>
+    </view>
+    <view class='weui-cell' bindtap='ui_method'>
+      <view class='weui-cell__bd'>WXML节点布局相交状态</view>
+    </view>
+
+  </view>
+</view>
+</view>

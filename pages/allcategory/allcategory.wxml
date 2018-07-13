@@ -1,0 +1,24 @@
+<!--pages/allcategory/allcategory.wxml-->
+<view wx:for='{{contentList}}' wx:key='{{index}}'>
+  <view wx:if='{{(item.type=="休息视频")}}'>
+  </view>
+  <view wx:elif='{{(item.type=="福利")}}' class='welfare-box-style'>
+    <image src='{{item.url}}' class='welfare-style' bindlongpress='downloadImage' data-itemcontent='{{item}}'></image>
+  </view>
+  <view wx:else class='item-bg-style' bindtap='toDetailsPage' data-itemcontent='{{item}}' bindlongpress='copyToClipboardData'>
+    <!-- 左边图片，没有就隐藏   -->
+    <view wx:if="{{item.images.length > 0}}" class='img-style'>
+      <image src='{{item.images[0]}}' class='img-style'></image>
+    </view>
+    <!--右边内容  -->
+    <view class='content-style'>
+      <text>{{item.desc}}</text>
+      <view>
+        <text>{{dataModule.formatTime(item.createdAt)}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--导入wxs  -->
+<wxs src="./allcategory.wxs" module="dataModule"></wxs>

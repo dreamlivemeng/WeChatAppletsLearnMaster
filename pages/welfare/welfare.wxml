@@ -1,0 +1,6 @@
+<!--pages/welfare/welfare.wxml-->
+<view wx:for='{{contentList}}' wx:key='{{index}}' class='welfare-box-style' bindlongpress='downloadImage' data-itemcontent='{{item}}'>
+  <view wx:if="{{item.url.length > 0}}" class='img-style'>
+    <image src='{{item.url}}' class='welfare-style'></image>
+  </view>
+</view>

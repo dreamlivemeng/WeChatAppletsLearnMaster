@@ -1,0 +1,25 @@
+/**
+ * 时间格式化
+ */
+function formatTime(date) {
+  var dateformat = getDate(date);
+  return dateformat.getFullYear() + "-" + formatAddZero(dateformat.getMonth()) + "-" + formatAddZero(dateformat.getDay()) +
+    "  " + formatAddZero(dateformat.getHours()) +
+    ":" + formatAddZero(dateformat.getMinutes()) +
+    ":" + formatAddZero(dateformat.getSeconds());
+}
+/**
+ * 将小于0的数字前加0
+ */
+function formatAddZero(str) {
+  if (str < 10) {
+    return "0" + str;
+  } else {
+    return str;
+  }
+  return str;
+}
+/**
+ * 导出使用
+ */
+module.exports.formatTime = formatTime

@@ -1,0 +1,10 @@
+<!--pages/media/audioControl/audioControl.wxml-->
+
+<audio src='{{src}}' id='myAudio'></audio>
+<view class='btn-area'>
+  <button  class='page-body-button' type='primary' bindtap='audioPlay'>播放</button>
+  <button  class='page-body-button' type='primary' bindtap='audioPause'>暂停</button>
+  <button  class='page-body-button' type='primary' bindtap='audio14'>设置当前播放世纪为14秒</button>
+  <button  class='page-body-button' type='primary' bindtap='audioStart'>回到开头</button>
+
+</view>

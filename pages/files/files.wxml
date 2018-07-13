@@ -1,0 +1,29 @@
+<!--pages/files/files.wxml-->
+
+<view class='page'>
+  <view class='page__hd'>
+    <text>{{desc}}</text>
+  </view>
+  <view class='page__hd'>
+    <view class='weui-cells'>
+      <view class='weui-cell' bindtap='savefile'>
+        <view class='weui-cell__bd'>保存文件</view>
+      </view>
+      <view class='weui-cell' bindtap='getFileInfo'>
+        <view class='weui-cell__bd'>获取文件信息</view>
+      </view>
+      <view class='weui-cell' bindtap='getsavedFileList'>
+        <view class='weui-cell__bd'>获取保存的文件夹列表</view>
+      </view>
+      <view class='weui-cell' bindtap='getsavedFileInfo'>
+        <view class='weui-cell__bd'>获取本地文件的文件信息（demo是获取的保存的文件夹列表的第一个）</view>
+      </view>
+      <view class='weui-cell' bindtap='removeSavedFile'>
+        <view class='weui-cell__bd'>移除文件夹列表的第一个文件</view>
+      </view>
+<view class='weui-cell' bindtap='openDocument'>
+        <view class='weui-cell__bd'>新开页面打开文档（doc, xls, ppt, pdf, docx, xlsx, pptx，demo是获取的保存的文件夹列表的第一个）</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/ui/interfacefeedback/interfacefeedback.wxml-->
+
+<view class='page'>
+  <view class='page__hd'>
+</view>
+<view class='page__hd'>
+  <view class='weui-cells'>
+    <view class='weui-cell' bindtap='showToast_method'>
+      <view class='weui-cell__bd'>showToast</view>
+    </view>
+    <view class='weui-cell' bindtap='showLoading_method'>
+      <view class='weui-cell__bd'>showLoading</view>
+    </view>
+    <view class='weui-cell' bindtap='showModal_method'>
+      <view class='weui-cell__bd'>showModal</view>
+    </view>
+    <view class='weui-cell' bindtap='showActionSheet_method'>
+      <view class='weui-cell__bd'>显示操作菜单showActionSheet</view>
+    </view>
+  </view>
+</view>
+</view>

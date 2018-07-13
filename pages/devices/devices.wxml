@@ -1,0 +1,58 @@
+<!--pages/devices/devices.wxml-->
+
+<view class='page'>
+  <view class='page__hd'>
+    <text>{{desc}}</text>
+  </view>
+  <view class='page__hd'>
+    <view class='weui-cells'>
+      <view class='weui-cell' bindtap='systeminfo'>
+        <view class='weui-cell__bd'>系统消息</view>
+      </view>
+      <view class='weui-cell' bindtap='network_state'>
+        <view class='weui-cell__bd'>网络状态</view>
+      </view>
+      <view class='weui-cell' bindtap='onAccelerometer'>
+        <view class='weui-cell__bd'>加速度</view>
+      </view>
+      <view class='weui-cell' bindtap='onCompass'>
+        <view class='weui-cell__bd'>罗盘</view>
+      </view>
+      <view class='weui-cell' bindtap='makePhoneCall'>
+        <view class='weui-cell__bd'>拨打电话</view>
+      </view>
+      <view class='weui-cell' bindtap='scancode'>
+        <view class='weui-cell__bd'>扫码</view>
+      </view>
+      <view class='weui-cell' bindtap='clipboardData'>
+        <view class='weui-cell__bd'>剪贴板</view>
+      </view>
+      <view class='weui-cell' bindtap='addphone'>
+        <view class='weui-cell__bd'>蓝牙(todo)</view>
+      </view>
+      <view class='weui-cell' bindtap='addphone'>
+        <view class='weui-cell__bd'>iBeacon(todo)</view>
+      </view>
+      <view class='weui-cell' bindtap='screenBrightness'>
+        <view class='weui-cell__bd'>屏幕亮度</view>
+      </view>
+      <view class='weui-cell' bindtap='onUserCaptureScreen'>
+        <view class='weui-cell__bd'>用户截屏事件</view>
+      </view>
+      <view class='weui-cell' bindtap='vibrate'>
+        <view class='weui-cell__bd'>振动</view>
+      </view>
+      <view class='weui-cell' bindtap='addphone'>
+        <view class='weui-cell__bd'>手机联系人</view>
+      </view>
+      <view class='weui-cell' bindtap='nfctest'>
+        <view class='weui-cell__bd'>NFC(todo)</view>
+      </view>
+      <view class='weui-cell' bindtap='wifi'>
+        <view class='weui-cell__bd'>wifi(todo)</view>
+      </view>
+
+
+    </view>
+  </view>
+</view>
