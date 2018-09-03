@@ -114,7 +114,7 @@ Page({
     wx.setBackgroundTextStyle({
       textStyle: 'dark', // 下拉背景字体、loading 图的样式，仅支持 'dark', 'light'
     })
-  },
+  }
   /**
    * 导航
    */
