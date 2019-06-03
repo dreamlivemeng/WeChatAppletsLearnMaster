@@ -3,4 +3,4 @@
 
 ## 微信关注 程序猿的岁月
 
-![二维码](images/master/code.png)  
+![二维码](images/code.png)  
